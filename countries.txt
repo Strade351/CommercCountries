@@ -229,8 +229,7 @@ Country (or dependent territory) - Population
   Nauru - 10,084
   Saint Barthelemy (France) - 9,417
   Saint Pierre and Miquelon (France) - 6,286
-  Saint Helena, Ascension
-and Tristan da Cunha (UK) - 5,633
+  Saint Helena, Ascension and Tristan da Cunha (UK) - 5,633
   Montserrat (UK) - 4,922
   Falkland Islands (UK) - 2,563
   Norfolk Island (Australia) - 2,302
