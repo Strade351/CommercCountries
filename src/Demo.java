@@ -5,8 +5,8 @@ public class Demo {
     public static void main(String[] args) {
         Reader reader = new Reader();
         reader.reader();
-        for (int i = 0; i <reader.strings.size() ; i++) {
-            System.out.println(reader.strings.get(i));
+        for (int i = 0; i <reader.sstring.length ; i++) {
+            System.out.println(reader.sstring[i]);
         }
 
     }
