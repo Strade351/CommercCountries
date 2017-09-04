@@ -1,0 +1,242 @@
+Country (or dependent territory) - Population
+  China - 1,385,200,000
+  India - 1,320,750,000
+  United States - 325,698,000
+  Indonesia - 261,890,900
+  Pakistan - 208,782,000
+  Brazil - 207,958,000
+  Nigeria - 193,500,543
+  Bangladesh - 163,072,000
+  Russia - 146,773,226
+  Japan - 126,750,000
+  Mexico - 123,364,426
+  Philippines - 104,545,000
+  Ethiopia - 94,351,001
+  Vietnam - 93,700,000
+  Egypt - 93,466,400
+  Germany - 82,800,000
+  Democratic Republic of the Congo - 81,339,988
+  Iran - 80,402,900
+  Turkey - 79,814,871
+  Thailand - 68,414,000
+  France - 67,080,000
+  United Kingdom - 65,648,100
+  Italy - 60,532,325
+  Tanzania - 57,310,000
+  South Africa - 56,521,900
+  Myanmar - 55,371,000
+  South Korea - 51,446,201
+  Kenya - 49,699,862
+  Colombia - 49,386,600
+  Spain - 46,528,966
+  Argentina - 44,044,811
+  Ukraine - 42,467,037
+  Algeria - 41,697,498
+  Sudan - 40,782,742
+  Poland - 38,424,000
+  Iraq - 38,274,618
+  Uganda - 37,673,800
+  Canada - 36,647,300
+  Morocco - 34,422,600
+  Saudi Arabia - 33,354,135
+  Uzbekistan - 32,345,000
+  Malaysia - 32,199,500
+  Peru - 31,826,018
+  Venezuela - 31,431,164
+  Afghanistan - 29,700,000
+  Ghana - 28,956,587
+  Nepal - 28,825,709
+  Angola - 28,359,634
+  Yemen - 28,250,000
+  Mozambique - 27,128,530
+  Madagascar - 25,571,000
+  North Korea - 25,491,000
+  Australia - 24,640,500
+  Ivory Coast - 24,295,000
+  Taiwan - 23,554,803
+  Cameroon - 23,248,044
+  Niger - 21,477,348
+  Sri Lanka - 21,203,000
+  Romania - 19,638,000
+  Burkina Faso - 19,632,147
+  Malawi - 18,622,000
+  Mali - 18,542,000
+  Syria - 18,270,000
+  Kazakhstan - 18,034,400
+  Chile - 17,373,831
+  Netherlands - 17,151,700
+  Ecuador - 16,805,600
+  Zambia - 16,405,229
+  Guatemala - 16,176,133
+  Cambodia - 15,848,495
+  Senegal - 15,256,346
+  Chad - 14,900,000
+  Somalia - 14,743,000
+  Zimbabwe - 14,542,235
+  Guinea - 12,717,000
+  South Sudan - 12,131,000
+  Rwanda - 11,809,300
+  Belgium - 11,367,186
+  Tunisia - 11,304,482
+  Cuba - 11,239,224
+  Bolivia - 11,145,770
+  Haiti - 10,911,819
+  Greece - 10,783,748
+  Benin - 10,653,654
+  Czech Republic - 10,579,067
+  Burundi - 10,400,938
+  Portugal - 10,309,573
+  Dominican Republic - 10,169,172
+  Sweden - 10,072,600
+  Jordan - 9,961,110
+  Azerbaijan - 9,843,031
+  Hungary - 9,799,000
+  Belarus - 9,495,500
+  United Arab Emirates - 9,400,000
+  Honduras - 8,866,351
+  Austria - 8,794,267
+  Tajikistan - 8,742,000
+  Israel - 8,734,300
+  Switzerland - 8,431,702
+  Papua New Guinea - 8,151,300
+  Hong Kong (China) - 7,374,900
+  Togo - 7,178,000
+  Bulgaria - 7,101,859
+  Sierra Leone - 7,075,641
+  Serbia[Note 13] - 7,058,322
+  Paraguay - 6,953,646
+  El Salvador - 6,581,940
+  Laos - 6,492,400
+  Libya - 6,385,000
+  Nicaragua - 6,305,956
+  Kyrgyzstan - 6,140,200
+  Lebanon - 6,082,000
+  Denmark - 5,760,694
+  Turkmenistan - 5,758,000
+  Singapore - 5,607,300
+  Finland - 5,507,101
+  Slovakia - 5,435,343
+  Norway - 5,277,762
+  Republic of the Congo - 5,261,000
+  Central African Republic - 5,099,000
+  Eritrea - 5,069,000
+  Costa Rica - 4,947,490
+  Palestine - 4,816,503
+  New Zealand - 4,813,000
+  Ireland - 4,757,976
+  Oman - 4,573,075
+  Croatia - 4,154,213
+  Kuwait - 4,132,415
+  Liberia - 4,076,530
+  Panama - 3,814,672
+  Mauritania - 3,806,719
+  Georgia - 3,718,200
+  Moldova - 3,550,900
+  Bosnia and Herzegovina - 3,518,000
+  Uruguay - 3,493,205
+  Puerto Rico (U.S.) - 3,411,307
+  Mongolia - 3,166,775
+  Armenia - 2,981,500
+  Albania - 2,876,591
+  Lithuania - 2,819,753
+  Jamaica - 2,730,894
+  Qatar - 2,675,522
+  Namibia - 2,368,747
+  Botswana - 2,230,905
+  Lesotho - 2,233,000
+  The Gambia - 2,101,000
+  Macedonia - 2,073,702
+  Slovenia - 2,065,895
+  Latvia - 1,935,800
+  Kosovo[Note 16] - 1,836,978
+  Gabon - 1,811,079
+  Guinea-Bissau - 1,547,777
+  Bahrain - 1,404,900
+  Trinidad and Tobago - 1,353,895
+  Estonia - 1,315,635
+  Mauritius - 1,263,820
+  Equatorial Guinea - 1,222,442
+  East Timor - 1,167,242
+  Swaziland - 1,132,657
+  Djibouti - 900,000
+  Fiji - 869,458
+  Cyprus - 848,300
+  Comoros - 806,153
+  Bhutan - 790,780
+  Guyana - 746,900
+  Macau (China) - 648,300
+  Solomon Islands - 642,000
+  Montenegro - 622,387
+  Western Sahara - 584,000
+  Luxembourg - 590,667
+  Suriname - 541,638
+  Cape Verde - 531,239
+  Transnistria - 475,665
+  Malta - 429,344
+  Brunei - 417,200
+  Belize - 380,010
+  Bahamas - 378,040
+  Maldives - 344,023
+  Iceland - 343,960
+  Northern Cyprus - 313,626
+  Barbados - 285,000
+  Vanuatu - 277,500
+  French Polynesia (France) - 271,800
+  New Caledonia (France) - 268,767
+  Abkhazia - 240,705
+  Samoa - 196,315
+  Sao Tome and Principe - 187,356
+  Saint Lucia - 186,000
+  Guam (U.S.) - 184,200
+  Curacao (Netherlands) - 158,986
+  Nagorno-Karabakh Republic - 150,932
+  Kiribati - 113,400
+  Aruba (Netherlands) - 110,108
+  Saint Vincent and the Grenadines - 109,991
+  United States Virgin Islands (U.S.) - 106,000
+  Jersey (UK) - 104,200
+  Grenada - 103,328
+  Tonga - 103,252
+  Federated States of Micronesia - 102,800
+  Seychelles - 94,205
+  Antigua and Barbuda - 86,295
+  Isle of Man (UK) - 83,314
+  Andorra - 78,264
+  Dominica - 71,293
+  Guernsey (UK) - 62,723
+  Bermuda (UK) - 61,954
+  Cayman Islands (UK) - 60,413
+  American Samoa (U.S.) - 57,100
+  Northern Mariana Islands (U.S.) - 56,940
+  Greenland (Denmark) - 56,483
+  Marshall Islands - 54,880
+  South Ossetia - 53,532
+  Faroe Islands (Denmark) - 50,250
+  Saint Kitts and Nevis - 46,204
+  Sint Maarten (Netherlands) - 39,410
+  Liechtenstein - 37,815
+  Monaco - 37,550
+  Saint-Martin (France) - 36,457
+  San Marino - 33,230
+  Gibraltar (UK) - 33,140
+  Turks and Caicos Islands (UK) - 31,458
+  British Virgin Islands (UK) - 28,514
+  Cook Islands (NZ) - 18,100
+  Palau - 17,950
+  Anguilla (UK) - 13,452
+  Wallis and Futuna (France) - 11,750
+  Tuvalu - 10,640
+  Nauru - 10,084
+  Saint Barthelemy (France) - 9,417
+  Saint Pierre and Miquelon (France) - 6,286
+  Saint Helena, Ascension
+and Tristan da Cunha (UK) - 5,633
+  Montserrat (UK) - 4,922
+  Falkland Islands (UK) - 2,563
+  Norfolk Island (Australia) - 2,302
+  Christmas Island (Australia) - 2,072
+  Niue (NZ) - 1,470
+  Tokelau (NZ) - 1,411
+  Vatican City - 800
+  Cocos (Keeling) Islands (Australia) - 550
+  Pitcairn Islands (UK) - 57
