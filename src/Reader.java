@@ -1,10 +1,11 @@
 import java.io.*;
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class Reader {
     int n;
    ArrayList<String> astrings = new ArrayList<>();
-   String[] sstring;
+   public String[] sstring;
     public void reader(){
         try{
             FileInputStream fstream = new FileInputStream("countries.txt");
@@ -21,11 +22,31 @@ public class Reader {
                 sstring[i] = astrings.get(i);
 
             }
-        }catch (IOException e){
+        } catch (IOException e){
             System.out.println("Ошибка");
 
         }
+    }
 
+    void sort() {
+        Arrays.sort(sstring);
+        for (int i = 0; i < sstring.length; i++) {
+            System.out.println(sstring[i]);
+        }
+    }
+
+    void write() {
+        File file = new File("countries.txt");
+        try {
+            FileWriter fw = new FileWriter(file);
+            for (int i = 0; i < sstring.length; i++) {
+                fw.write(sstring[i]);
+                fw.append("\n");
+            }
+            fw.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
 }
