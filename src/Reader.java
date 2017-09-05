@@ -8,7 +8,15 @@ public class Reader {
    public String[] sstring;
 
    public ArrayList<Country> countries = new ArrayList<>();
+
    public Country [] ccountries;
+
+   public void Reader() {
+       reader();
+       sort();
+       parse();
+       massc();
+   }
 
    public void reader(){
         try{
@@ -27,28 +35,13 @@ public class Reader {
             }
         } catch (IOException e){
             System.out.println("Ошибка");
-
         }
-    }
+   }
 
-    void sort() {
+   void sort() {
         Arrays.sort(sstring);
         for (int i = 0; i < sstring.length; i++) {
             //System.out.println(sstring[i]);
-        }
-    }
-
-    void write() {
-        File file = new File("countriessort.txt");
-        try {
-            FileWriter fw = new FileWriter(file);
-            for (int i = 0; i < ccountries.length; i++) {
-                fw.write(ccountries[i].countryName + " " + ccountries[i].peopleCount + " " + ccountries[i].percent);
-                fw.append("\n");
-            }
-            fw.close();
-        } catch (IOException e) {
-            e.printStackTrace();
         }
     }
 

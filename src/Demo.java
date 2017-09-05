@@ -7,7 +7,6 @@ public class Demo {
         reader.reader();
         reader.sort();
         reader.parse();
-        reader.write();
        reader.massc();
         HTMLGenerator htmlGenerator = new HTMLGenerator(reader.ccountries);
         htmlGenerator.generateHTMLList();
