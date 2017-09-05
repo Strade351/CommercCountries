@@ -7,11 +7,10 @@ public class Demo {
         reader.reader();
         reader.sort();
         reader.write();
+       reader.parse();
         for (int i = 0; i < reader.sstring.length; i++) {
-            System.out.println(reader.sstring[i]);
-
-        }
-        for (int i = 0; i < reader.sstring.length ; i++) {
+            //  System.out.println(reader.sstring[i]);
+            System.out.println(reader.countries.get(i).toString());
 
         }
 

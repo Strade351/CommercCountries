@@ -7,7 +7,8 @@ public class Reader {
 
    ArrayList<String> astrings = new ArrayList<>();
    public String[] sstring;
-   public Country countries;
+
+   public ArrayList<Country> countries = new ArrayList<>();
    ArrayList<String[]> ccoun = new ArrayList<>();
     public void reader(){
         try{
@@ -34,7 +35,7 @@ public class Reader {
     void sort() {
         Arrays.sort(sstring);
         for (int i = 0; i < sstring.length; i++) {
-            System.out.println(sstring[i]);
+            //System.out.println(sstring[i]);
         }
     }
 
@@ -52,9 +53,16 @@ public class Reader {
         }
     }
    void parse(){
+
        for (int i = 0; i < sstring.length ; i++) {
-           ccoun.set(i, sstring[i].split(" - "));
+           String[] tmp = sstring[i].split(" - ");
+           String counts =  tmp[1].replace(",", "");
+           countries.add(new Country(tmp[0], Integer.parseInt(counts), Double.parseDouble(counts)/7000000000l*100 ));
+
+
+
        }
+
     }
 
 }

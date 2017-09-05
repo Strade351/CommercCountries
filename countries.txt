@@ -1,14 +1,3 @@
-  Afghanistan - 29,700,000
-  Albania - 2,876,591
-  Algeria - 41,697,498
-  American Samoa (U.S.) - 57,100
-  Andorra - 78,264
-  Angola - 28,359,634
-  Anguilla (UK) - 13,452
-  Antigua and Barbuda - 86,295
-  Argentina - 44,044,811
-  Armenia - 2,981,500
-  Aruba (Netherlands) - 110,108
   Australia - 24,640,500
   Austria - 8,794,267
   Azerbaijan - 9,843,031

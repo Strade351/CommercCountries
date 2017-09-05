@@ -8,4 +8,13 @@ public class Country {
         this.peopleCount = peopleCount;
         this.percent = percent;
     }
+
+    @Override
+    public String toString() {
+        return "Country{" +
+                "countryName='" + countryName + '\'' +
+                ", peopleCount=" + peopleCount +
+                ", percent=" + percent +
+                '}';
+    }
 }
