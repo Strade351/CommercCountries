@@ -55,8 +55,6 @@ public class Reader {
        for (int i = 0; i < sstring.length ; i++) {
            ccoun.set(i, sstring[i].split(" - "));
        }
-
-
     }
 
 }
