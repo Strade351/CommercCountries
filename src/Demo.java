@@ -7,14 +7,11 @@ public class Demo {
         reader.reader();
         reader.sort();
         reader.parse();
-       reader.massc();
+        reader.massc();
+        TxtGenerator txtGenerator = new TxtGenerator(reader.ccountries);
+        txtGenerator.generatetxt();
         HTMLGenerator htmlGenerator = new HTMLGenerator(reader.ccountries);
         htmlGenerator.generateHTMLList();
-        for (int i = 0; i < reader.sstring.length; i++) {
-            //  System.out.println(reader.sstring[i]);
-            System.out.println(reader.countries.get(i).toString());
-
-        }
 
 
     }
