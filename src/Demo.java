@@ -7,9 +7,11 @@ public class Demo {
         reader.reader();
         reader.sort();
         reader.write();
-        for (int i = 0; i <reader.sstring.length ; i++) {
+        for (int i = 0; i < reader.sstring.length; i++) {
             System.out.println(reader.sstring[i]);
+
         }
+        reader.parse();
 
     }
 

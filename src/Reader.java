@@ -4,8 +4,11 @@ import java.util.Arrays;
 
 public class Reader {
     int n;
+
    ArrayList<String> astrings = new ArrayList<>();
    public String[] sstring;
+   public Country countries;
+   ArrayList<String[]> ccoun = new ArrayList<>();
     public void reader(){
         try{
             FileInputStream fstream = new FileInputStream("countries.txt");
@@ -48,5 +51,15 @@ public class Reader {
             e.printStackTrace();
         }
     }
+  /* void parse(){
+       for (int i = 0; i < sstring.length ; i++) {
+           ccoun.set(i, sstring[])
+
+       }
+
+
+    }*/
 
 }
+
+
