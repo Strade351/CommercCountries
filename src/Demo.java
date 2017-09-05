@@ -11,7 +11,9 @@ public class Demo {
             System.out.println(reader.sstring[i]);
 
         }
-        reader.parse();
+        for (int i = 0; i < reader.sstring.length ; i++) {
+
+        }
 
     }
 

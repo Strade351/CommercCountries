@@ -51,14 +51,13 @@ public class Reader {
             e.printStackTrace();
         }
     }
-  /* void parse(){
+   void parse(){
        for (int i = 0; i < sstring.length ; i++) {
-           ccoun.set(i, sstring[])
-
+           ccoun.set(i, sstring[i].split(" - "));
        }
 
 
-    }*/
+    }
 
 }
 
