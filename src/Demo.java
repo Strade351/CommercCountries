@@ -8,11 +8,15 @@ public class Demo {
         reader.sort();
         reader.write();
        reader.parse();
+       reader.massc();
+        HTMLGenerator htmlGenerator = new HTMLGenerator(reader.ccountries);
+        htmlGenerator.generateHTMLList();
         for (int i = 0; i < reader.sstring.length; i++) {
             //  System.out.println(reader.sstring[i]);
             System.out.println(reader.countries.get(i).toString());
 
         }
+
 
     }
 

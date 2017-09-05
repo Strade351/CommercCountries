@@ -9,6 +9,7 @@ public class Reader {
    public String[] sstring;
 
    public ArrayList<Country> countries = new ArrayList<>();
+   public Country [] ccountries;
    ArrayList<String[]> ccoun = new ArrayList<>();
     public void reader(){
         try{
@@ -40,7 +41,7 @@ public class Reader {
     }
 
     void write() {
-        File file = new File("countries.txt");
+        File file = new File("countriessort.txt");
         try {
             FileWriter fw = new FileWriter(file);
             for (int i = 0; i < sstring.length; i++) {
@@ -57,12 +58,19 @@ public class Reader {
        for (int i = 0; i < sstring.length ; i++) {
            String[] tmp = sstring[i].split(" - ");
            String counts =  tmp[1].replace(",", "");
-           countries.add(new Country(tmp[0], Integer.parseInt(counts), Double.parseDouble(counts)/7000000000l*100 ));
+           countries.add(new Country(tmp[0], Integer.parseInt(counts), Math.round(Double.parseDouble(counts)/70000)/1000d));
 
 
 
        }
 
+    }
+    void massc(){
+       ccountries = new Country[countries.size()];
+        for (int i = 0; i < ccountries.length ; i++) {
+            ccountries[i] = countries.get(i);
+
+        }
     }
 
 }
