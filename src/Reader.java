@@ -3,22 +3,20 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 public class Reader {
-    int n;
 
    ArrayList<String> astrings = new ArrayList<>();
    public String[] sstring;
 
    public ArrayList<Country> countries = new ArrayList<>();
    public Country [] ccountries;
-   ArrayList<String[]> ccoun = new ArrayList<>();
-    public void reader(){
+
+   public void reader(){
         try{
             FileInputStream fstream = new FileInputStream("countries.txt");
             BufferedReader br = new BufferedReader(new InputStreamReader(fstream));
             String strLine;
             while ((strLine = br.readLine()) != null){
                 astrings.add(strLine);
-
             }
 
             astrings.remove(0);
@@ -44,8 +42,8 @@ public class Reader {
         File file = new File("countriessort.txt");
         try {
             FileWriter fw = new FileWriter(file);
-            for (int i = 0; i < sstring.length; i++) {
-                fw.write(sstring[i]);
+            for (int i = 0; i < ccountries.length; i++) {
+                fw.write(ccountries[i].countryName + " " + ccountries[i].peopleCount + " " + ccountries[i].percent);
                 fw.append("\n");
             }
             fw.close();
@@ -53,26 +51,21 @@ public class Reader {
             e.printStackTrace();
         }
     }
-   void parse(){
 
+   void parse(){
        for (int i = 0; i < sstring.length ; i++) {
            String[] tmp = sstring[i].split(" - ");
            String counts =  tmp[1].replace(",", "");
            countries.add(new Country(tmp[0], Integer.parseInt(counts), Math.round(Double.parseDouble(counts)/70000)/1000d));
-
-
-
        }
+   }
 
-    }
-    void massc(){
+   void massc(){
        ccountries = new Country[countries.size()];
         for (int i = 0; i < ccountries.length ; i++) {
             ccountries[i] = countries.get(i);
-
         }
-    }
-
+   }
 }
 
 
