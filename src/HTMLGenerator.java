@@ -45,15 +45,13 @@ public class HTMLGenerator {
             for (int i = 0; i < countries.length; i++) {
                 char temp = countries[i].countryName.charAt(3);
                 if (i == 0 && temp == countries[i + 1].countryName.charAt(3)) {
-                    fw.write("<a name=\"" + temp + "\">" + temp + "</a><br>");
-
-
+                    fw.write("<a name=\"" + temp + "\">" + temp + "</a><br>" + countries[i].countryName + "<br>" );
                 }
                 else if (temp != countries[i - 1].countryName.charAt(3)) {
-                    temp = countries[i + 1].countryName.charAt(3);
+                    //temp = countries[i + 1].countryName.charAt(3);
                     fw.write("<p> <a href=\"#Top\">Top</a> </p>");
                     fw.write("<a name=\"" + temp + "\">" + temp + "</a><br>");
-
+                    fw.write(countries[i].countryName + " <br>");
                 }
                 else
                     fw.write(countries[i].countryName + " <br>");
