@@ -103,7 +103,7 @@
    Togo - 7,178,000
    Bulgaria - 7,101,859
    Sierra Leone - 7,075,641
-   Serbia[Note 13] - 7,058,322
+   Serbia - 7,058,322
    Paraguay - 6,953,646
    El Salvador - 6,581,940
    Laos - 6,492,400
@@ -148,7 +148,7 @@
    Macedonia - 2,073,702
    Slovenia - 2,065,895
    Latvia - 1,935,800
-   Kosovo[Note 16] - 1,836,978
+   Kosovo - 1,836,978
    Gabon - 1,811,079
    Guinea-Bissau - 1,547,777
    Bahrain - 1,404,900
