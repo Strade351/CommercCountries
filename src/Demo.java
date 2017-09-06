@@ -8,10 +8,11 @@ public class Demo {
         reader.sort();
         reader.parse();
         reader.massc();
-        TxtGenerator txtGenerator = new TxtGenerator(reader.ccountries);
-        txtGenerator.generatetxt();
+        //TxtGenerator txtGenerator = new TxtGenerator(reader.ccountries);
+        //txtGenerator.generatetxt();
         HTMLGenerator htmlGenerator = new HTMLGenerator(reader.ccountries);
-        htmlGenerator.generateHTMLList();
+        //htmlGenerator.generateHTMLList();
+        htmlGenerator.generateHTMLAlphList();
 
 
     }
