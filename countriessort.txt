@@ -1,0 +1,240 @@
+   Abkhazia 240705 0.003
+   Afghanistan 29700000 0.424
+   Albania 2876591 0.041
+   Algeria 41697498 0.596
+   American Samoa (U.S.) 57100 0.001
+   Andorra 78264 0.001
+   Angola 28359634 0.405
+   Anguilla (UK) 13452 0.0
+   Antigua and Barbuda 86295 0.001
+   Argentina 44044811 0.629
+   Armenia 2981500 0.043
+   Aruba (Netherlands) 110108 0.002
+   Australia 24640500 0.352
+   Austria 8794267 0.126
+   Azerbaijan 9843031 0.141
+   Bahamas 378040 0.005
+   Bahrain 1404900 0.02
+   Bangladesh 163072000 2.33
+   Barbados 285000 0.004
+   Belarus 9495500 0.136
+   Belgium 11367186 0.162
+   Belize 380010 0.005
+   Benin 10653654 0.152
+   Bermuda (UK) 61954 0.001
+   Bhutan 790780 0.011
+   Bolivia 11145770 0.159
+   Bosnia and Herzegovina 3518000 0.05
+   Botswana 2230905 0.032
+   Brazil 207958000 2.971
+   British Virgin Islands (UK) 28514 0.0
+   Brunei 417200 0.006
+   Bulgaria 7101859 0.101
+   Burkina Faso 19632147 0.28
+   Burundi 10400938 0.149
+   Cambodia 15848495 0.226
+   Cameroon 23248044 0.332
+   Canada 36647300 0.524
+   Cape Verde 531239 0.008
+   Cayman Islands (UK) 60413 0.001
+   Central African Republic 5099000 0.073
+   Chad 14900000 0.213
+   Chile 17373831 0.248
+   China 1385200000 19.789
+   Christmas Island (Australia) 2072 0.0
+   Cocos (Keeling) Islands (Australia) 550 0.0
+   Colombia 49386600 0.706
+   Comoros 806153 0.012
+   Cook Islands (NZ) 18100 0.0
+   Costa Rica 4947490 0.071
+   Croatia 4154213 0.059
+   Cuba 11239224 0.161
+   Curacao (Netherlands) 158986 0.002
+   Cyprus 848300 0.012
+   Czech Republic 10579067 0.151
+   Democratic Republic of the Congo 81339988 1.162
+   Denmark 5760694 0.082
+   Djibouti 900000 0.013
+   Dominica 71293 0.001
+   Dominican Republic 10169172 0.145
+   East Timor 1167242 0.017
+   Ecuador 16805600 0.24
+   Egypt 93466400 1.335
+   El Salvador 6581940 0.094
+   Equatorial Guinea 1222442 0.017
+   Eritrea 5069000 0.072
+   Estonia 1315635 0.019
+   Ethiopia 94351001 1.348
+   Falkland Islands (UK) 2563 0.0
+   Faroe Islands (Denmark) 50250 0.001
+   Federated States of Micronesia 102800 0.001
+   Fiji 869458 0.012
+   Finland 5507101 0.079
+   France 67080000 0.958
+   French Polynesia (France) 271800 0.004
+   Gabon 1811079 0.026
+   Georgia 3718200 0.053
+   Germany 82800000 1.183
+   Ghana 28956587 0.414
+   Gibraltar (UK) 33140 0.0
+   Greece 10783748 0.154
+   Greenland (Denmark) 56483 0.001
+   Grenada 103328 0.001
+   Guam (U.S.) 184200 0.003
+   Guatemala 16176133 0.231
+   Guernsey (UK) 62723 0.001
+   Guinea 12717000 0.182
+   Guinea-Bissau 1547777 0.022
+   Guyana 746900 0.011
+   Haiti 10911819 0.156
+   Honduras 8866351 0.127
+   Hong Kong (China) 7374900 0.105
+   Hungary 9799000 0.14
+   Iceland 343960 0.005
+   India 1320750000 18.868
+   Indonesia 261890900 3.741
+   Iran 80402900 1.149
+   Iraq 38274618 0.547
+   Ireland 4757976 0.068
+   Isle of Man (UK) 83314 0.001
+   Israel 8734300 0.125
+   Italy 60532325 0.865
+   Ivory Coast 24295000 0.347
+   Jamaica 2730894 0.039
+   Japan 126750000 1.811
+   Jersey (UK) 104200 0.001
+   Jordan 9961110 0.142
+   Kazakhstan 18034400 0.258
+   Kenya 49699862 0.71
+   Kiribati 113400 0.002
+   Kosovo 1836978 0.026
+   Kuwait 4132415 0.059
+   Kyrgyzstan 6140200 0.088
+   Laos 6492400 0.093
+   Latvia 1935800 0.028
+   Lebanon 6082000 0.087
+   Lesotho 2233000 0.032
+   Liberia 4076530 0.058
+   Libya 6385000 0.091
+   Liechtenstein 37815 0.001
+   Lithuania 2819753 0.04
+   Luxembourg 590667 0.008
+   Macau (China) 648300 0.009
+   Macedonia 2073702 0.03
+   Madagascar 25571000 0.365
+   Malawi 18622000 0.266
+   Malaysia 32199500 0.46
+   Maldives 344023 0.005
+   Mali 18542000 0.265
+   Malta 429344 0.006
+   Marshall Islands 54880 0.001
+   Mauritania 3806719 0.054
+   Mauritius 1263820 0.018
+   Mexico 123364426 1.762
+   Moldova 3550900 0.051
+   Monaco 37550 0.001
+   Mongolia 3166775 0.045
+   Montenegro 622387 0.009
+   Montserrat (UK) 4922 0.0
+   Morocco 34422600 0.492
+   Mozambique 27128530 0.388
+   Myanmar 55371000 0.791
+   Nagorno-Karabakh Republic 150932 0.002
+   Namibia 2368747 0.034
+   Nauru 10084 0.0
+   Nepal 28825709 0.412
+   Netherlands 17151700 0.245
+   New Caledonia (France) 268767 0.004
+   New Zealand 4813000 0.069
+   Nicaragua 6305956 0.09
+   Niger 21477348 0.307
+   Nigeria 193500543 2.764
+   Niue (NZ) 1470 0.0
+   Norfolk Island (Australia) 2302 0.0
+   North Korea 25491000 0.364
+   Northern Cyprus 313626 0.004
+   Northern Mariana Islands (U.S.) 56940 0.001
+   Norway 5277762 0.075
+   Oman 4573075 0.065
+   Pakistan 208782000 2.983
+   Palau 17950 0.0
+   Palestine 4816503 0.069
+   Panama 3814672 0.054
+   Papua New Guinea 8151300 0.116
+   Paraguay 6953646 0.099
+   Peru 31826018 0.455
+   Philippines 104545000 1.494
+   Pitcairn Islands (UK) 57 0.0
+   Poland 38424000 0.549
+   Portugal 10309573 0.147
+   Puerto Rico (U.S.) 3411307 0.049
+   Qatar 2675522 0.038
+   Republic of the Congo 5261000 0.075
+   Romania 19638000 0.281
+   Russia 146773226 2.097
+   Rwanda 11809300 0.169
+   Saint Barthelemy (France) 9417 0.0
+   Saint Helena, Ascension and Tristan da Cunha (UK) 5633 0.0
+   Saint Kitts and Nevis 46204 0.001
+   Saint Lucia 186000 0.003
+   Saint Pierre and Miquelon (France) 6286 0.0
+   Saint Vincent and the Grenadines 109991 0.002
+   Saint-Martin (France) 36457 0.001
+   Samoa 196315 0.003
+   San Marino 33230 0.0
+   Sao Tome and Principe 187356 0.003
+   Saudi Arabia 33354135 0.476
+   Senegal 15256346 0.218
+   Serbia 7058322 0.101
+   Seychelles 94205 0.001
+   Sierra Leone 7075641 0.101
+   Singapore 5607300 0.08
+   Sint Maarten (Netherlands) 39410 0.001
+   Slovakia 5435343 0.078
+   Slovenia 2065895 0.03
+   Solomon Islands 642000 0.009
+   Somalia 14743000 0.211
+   South Africa 56521900 0.807
+   South Korea 51446201 0.735
+   South Ossetia 53532 0.001
+   South Sudan 12131000 0.173
+   Spain 46528966 0.665
+   Sri Lanka 21203000 0.303
+   Sudan 40782742 0.583
+   Suriname 541638 0.008
+   Swaziland 1132657 0.016
+   Sweden 10072600 0.144
+   Switzerland 8431702 0.12
+   Syria 18270000 0.261
+   Taiwan 23554803 0.336
+   Tajikistan 8742000 0.125
+   Tanzania 57310000 0.819
+   Thailand 68414000 0.977
+   The Gambia 2101000 0.03
+   Togo 7178000 0.103
+   Tokelau (NZ) 1411 0.0
+   Tonga 103252 0.001
+   Transnistria 475665 0.007
+   Trinidad and Tobago 1353895 0.019
+   Tunisia 11304482 0.161
+   Turkey 79814871 1.14
+   Turkmenistan 5758000 0.082
+   Turks and Caicos Islands (UK) 31458 0.0
+   Tuvalu 10640 0.0
+   Uganda 37673800 0.538
+   Ukraine 42467037 0.607
+   United Arab Emirates 9400000 0.134
+   United Kingdom 65648100 0.938
+   United States 325698000 4.653
+   United States Virgin Islands (U.S.) 106000 0.002
+   Uruguay 3493205 0.05
+   Uzbekistan 32345000 0.462
+   Vanuatu 277500 0.004
+   Vatican City 800 0.0
+   Venezuela 31431164 0.449
+   Vietnam 93700000 1.339
+   Wallis and Futuna (France) 11750 0.0
+   Western Sahara 584000 0.008
+   Yemen 28250000 0.404
+   Zambia 16405229 0.234
+   Zimbabwe 14542235 0.208

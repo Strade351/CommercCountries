@@ -47,6 +47,7 @@ public class HTMLGenerator {
                 if (i == 0 && temp == countries[i + 1].countryName.charAt(3)) {
                     fw.write("<a name=\"" + temp + "\">" + temp + "</a><br>");
 
+
                 }
                 else if (temp != countries[i - 1].countryName.charAt(3)) {
                     temp = countries[i + 1].countryName.charAt(3);
