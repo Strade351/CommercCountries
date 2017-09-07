@@ -5,18 +5,12 @@ import java.util.ArrayList;
  */
 public class Demo {
     public static void main(String[] args) {
-        Reader reader = new Reader();
-        reader.reader();
-
-        ArrayList<Country> countries = new ArrayList<Country>();
-        countries.add(0, new Country("Borovia", 250205));
-        countries.add(0, new Country("Aorovia", 250205));
-        countries.add(0, new Country("Xorwefwef", 250205));
-
-        Countries countries1 = new Countries(countries);
-        countries1.sortCountries();
-        TxtGenerator txtGenerator = new TxtGenerator(countries);
-        txtGenerator.generatetxt();
+        Countries countries = new Countries(new ArrayList<>());
+        Controller controller = new Controller(countries);
+        controller.generateCountriesList();
+        controller.generateTxt();
+        controller.generateTable();
+        controller.generateAlphabet();
     }
 
 }
