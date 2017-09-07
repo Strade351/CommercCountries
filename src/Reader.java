@@ -11,43 +11,29 @@ public class Reader {
 
    public Country [] ccountries;
 
-   public void Reader() {
-       reader();
-       massc();
-   }
 
-   public void reader(){
+   public void fillStrList(){
         try{
             FileInputStream fstream = new FileInputStream("countries.txt");
             BufferedReader br = new BufferedReader(new InputStreamReader(fstream));
             String strLine;
             while ((strLine = br.readLine()) != null){
                 astrings.add(strLine);
-            }/*astrings.remove(0);
-            sstring = new String[astrings.size()] ;
-            for (int i = 0; i < sstring.length ; i++) {
-                sstring[i] = astrings.get(i);
-
-            }*/
+            }
         } catch (IOException e){
             System.out.println("Ошибка");
         }
    }
 
- /*  void parse(){
+  void fillContries(Countries c){
        for (int i = 0; i < sstring.length ; i++) {
            String[] tmp = sstring[i].split(" - ");
            String counts =  tmp[1].replace(",", "");
-           countries.add(new Country(tmp[0], Integer.parseInt(counts)));
+           c.addCountry(tmp[0], Integer.parseInt(counts));
        }
-   }*/
-
-   void massc(){
-       ccountries = new Country[countries.size()];
-        for (int i = 0; i < ccountries.length ; i++) {
-            ccountries[i] = countries.get(i);
-        }
    }
+
+
 }
 
 
