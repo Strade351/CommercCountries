@@ -52,7 +52,7 @@ public class Countries {
         countries.sort(new Comparator<Country>() {
             @Override
             public int compare(Country o1, Country o2) {
-                return o2.getCountryName().compareTo(o1.getCountryName());
+                return o1.getCountryName().compareTo(o2.getCountryName());
             }
         });
     }
