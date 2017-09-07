@@ -3,7 +3,7 @@ import java.util.ArrayList;
 public class Countries {
     ArrayList<Country> countries;
 
-    public Countries(ArrayList<Country> countries) {
+    Countries(ArrayList<Country> countries) {
         this.countries = countries;
     }
     /**
@@ -20,7 +20,6 @@ public class Countries {
             }
         }
         return tmp;
-        
     }
 
 }
