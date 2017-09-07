@@ -1,4 +1,7 @@
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.Comparator;
 
 
 /**
@@ -43,6 +46,15 @@ public class Countries {
     void addCountry(String countryName, int peopleCount) {
         Country country = new Country(countryName, peopleCount, Math.round((peopleCount)/Country.WORLD_POPULATION)/1000d);
         countries.add(country);
+    }
+
+    void sortCountries() {
+        countries.sort(new Comparator<Country>() {
+            @Override
+            public int compare(Country o1, Country o2) {
+                return o2.getCountryName().compareTo(o1.getCountryName());
+            }
+        });
     }
 }
 
