@@ -17,7 +17,7 @@ public class HTMLGenerator {
             FileWriter fw = new FileWriter(file);
             fw.append("<html> <title>Countries</title> <head<meta charset=\"utf-8\"><meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\"> </head> <body> <table border=\"1\"> <tr> <th>Страна</th> <th>Численность населения</th> <th>Процент от мирового населения</th> </tr>");
             for (int i = 0; i < countries.length; i++) {
-                fw.write("<tr><td>" + countries[i].countryName + "</td><td>" + countries[i].peopleCount + "</td><td>" + countries[i].percent + "</td></tr>");
+                fw.write("<tr><td>" + countries[i].getCountryName() + "</td><td>" + countries[i].getPeopleCount() + "</td><td>" + countries[i].getPercent() + "</td></tr>");
                 fw.append("\n");
             }
             fw.append("</table></body></html>");
@@ -32,10 +32,10 @@ public class HTMLGenerator {
         try {
             FileWriter fw = new FileWriter(file);
             fw.append("<html> <title>Countries</title> <head> <meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\"> </head> <body>");
-            fw.write("<a href=\"#" + countries[0].countryName.charAt(3) + "\">" + countries[0].countryName.charAt(3) + "</a>\n");     //заголовок
+            fw.write("<a href=\"#" + countries[0].getCountryName().charAt(3) + "\">" + countries[0].getCountryName().charAt(3) + "</a>\n");     //заголовок
             for (int i = 1; i < countries.length; i++) {
-                char temp = countries[i].countryName.charAt(3);
-                if (temp != countries[i - 1].countryName.charAt(3)) {
+                char temp = countries[i].getCountryName().charAt(3);
+                if (temp != countries[i - 1].getCountryName().charAt(3)) {
                     fw.write("<a name=\"Top\" href=\"#" + temp + "\">" + temp + "</a> ");
                 }
             }
@@ -43,19 +43,18 @@ public class HTMLGenerator {
             fw.append("<br>");
 
             for (int i = 0; i < countries.length; i++) {
-                char temp = countries[i].countryName.charAt(3);
-                if (i == 0 && temp == countries[i + 1].countryName.charAt(3)) {
-                    fw.write("<a name=\"" + temp + "\">" + temp + "</a><br>" + countries[i].countryName + "<br>" );
+                char temp = countries[i].getCountryName().charAt(3);
+                if (i == 0 && temp == countries[i + 1].getCountryName().charAt(3)) {
+                    fw.write("<a name=\"" + temp + "\">" + temp + "</a><br>" + countries[i].getCountryName() + "<br>" );
                 }
-                else if (temp != countries[i - 1].countryName.charAt(3)) {
+                else if (temp != countries[i - 1].getCountryName().charAt(3)) {
                     //temp = countries[i + 1].countryName.charAt(3);
                     fw.write("<p> <a href=\"#Top\">Top</a> </p>");
                     fw.write("<a name=\"" + temp + "\">" + temp + "</a><br>");
-                    fw.write(countries[i].countryName + " <br>");
+                    fw.write(countries[i].getCountryName() + " <br>");
                 }
                 else
-                    fw.write(countries[i].countryName + " <br>");
-
+                    fw.write(countries[i].getCountryName() + " <br>");
             }
             fw.append("</body></html>");
             fw.close();

@@ -18,7 +18,7 @@ public class TxtGenerator {
     try {
         FileWriter fw = new FileWriter(file);
         for (int i = 0; i < countries.length; i++) {
-            fw.write(countries[i].countryName + " " + countries[i].peopleCount + " " + countries[i].percent);
+            fw.write(countries[i].getCountryName() + " " + countries[i].getPeopleCount() + " " + countries[i].getPercent());
             fw.append("\r\n");
         }
         fw.close();
