@@ -1,14 +1,15 @@
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.util.ArrayList;
 
 /**
  * Created by ABondarev on 05.09.2017.
  */
 public class HTMLGenerator {
-    Country[] countries;
-    HTMLGenerator(Country[] countriess) {
-        this.countries = countriess;
+    ArrayList<Country> countries;
+    HTMLGenerator(ArrayList<Country> countries) {
+        this.countries = countries;
     }
 
     void generateHTMLList() {
@@ -16,8 +17,8 @@ public class HTMLGenerator {
         try {
             FileWriter fw = new FileWriter(file);
             fw.append("<html> <title>Countries</title> <head<meta charset=\"utf-8\"><meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\"> </head> <body> <table border=\"1\"> <tr> <th>Страна</th> <th>Численность населения</th> <th>Процент от мирового населения</th> </tr>");
-            for (int i = 0; i < countries.length; i++) {
-                fw.write("<tr><td>" + countries[i].getCountryName() + "</td><td>" + countries[i].getPeopleCount() + "</td><td>" + countries[i].getPercent() + "</td></tr>");
+            for (int i = 0; i < countries.size(); i++) {
+                fw.write("<tr><td>" + countries.get(i).getCountryName() + "</td><td>" + countries.get(i).getPeopleCount() + "</td><td>" + countries.get(i).getPercent() + "</td></tr>");
                 fw.append("\n");
             }
             fw.append("</table></body></html>");
@@ -32,29 +33,29 @@ public class HTMLGenerator {
         try {
             FileWriter fw = new FileWriter(file);
             fw.append("<html> <title>Countries</title> <head> <meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\"> </head> <body>");
-            fw.write("<a href=\"#" + countries[0].getCountryName().charAt(3) + "\">" + countries[0].getCountryName().charAt(3) + "</a>\n");     //заголовок
-            for (int i = 1; i < countries.length; i++) {
-                char temp = countries[i].getCountryName().charAt(3);
-                if (temp != countries[i - 1].getCountryName().charAt(3)) {
+            fw.write("<a href=\"#" + countries.get(0).getCountryName().charAt(3) + "\">" + countries.get(0).getCountryName().charAt(3) + "</a>\n");     //заголовок
+            for (int i = 1; i < countries.size(); i++) {
+                char temp = countries.get(i).getCountryName().charAt(3);
+                if (temp != countries.get(i - 1).getCountryName().charAt(3)) {
                     fw.write("<a name=\"Top\" href=\"#" + temp + "\">" + temp + "</a> ");
                 }
             }
 
             fw.append("<br>");
 
-            for (int i = 0; i < countries.length; i++) {
-                char temp = countries[i].getCountryName().charAt(3);
-                if (i == 0 && temp == countries[i + 1].getCountryName().charAt(3)) {
-                    fw.write("<a name=\"" + temp + "\">" + temp + "</a><br>" + countries[i].getCountryName() + "<br>" );
+            for (int i = 0; i < countries.size(); i++) {
+                char temp = countries.get(i).getCountryName().charAt(3);
+                if (i == 0 && temp == countries.get(i + 1).getCountryName().charAt(3)) {
+                    fw.write("<a name=\"" + temp + "\">" + temp + "</a><br>" + countries.get(i).getCountryName() + "<br>" );
                 }
-                else if (temp != countries[i - 1].getCountryName().charAt(3)) {
+                else if (temp != countries.get(i - 1).getCountryName().charAt(3)) {
                     //temp = countries[i + 1].countryName.charAt(3);
                     fw.write("<p> <a href=\"#Top\">Top</a> </p>");
                     fw.write("<a name=\"" + temp + "\">" + temp + "</a><br>");
-                    fw.write(countries[i].getCountryName() + " <br>");
+                    fw.write(countries.get(i).getCountryName() + " <br>");
                 }
                 else
-                    fw.write(countries[i].getCountryName() + " <br>");
+                    fw.write(countries.get(i).getCountryName() + " <br>");
             }
             fw.append("</body></html>");
             fw.close();
