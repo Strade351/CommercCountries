@@ -44,7 +44,7 @@ public class Countries {
      */
 
     void addCountry(String countryName, int peopleCount) {
-        Country country = new Country(countryName, peopleCount, Math.round((peopleCount)/Country.WORLD_POPULATION)/1000d);
+        Country country = new Country(countryName, peopleCount);
         countries.add(country);
     }
 
