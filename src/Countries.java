@@ -1,4 +1,7 @@
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.Comparator;
 
 public class Countries {
     ArrayList<Country> countries;
@@ -28,6 +31,15 @@ public class Countries {
         country.setPeopleCount(peopleCount);
         country.setPercent(percent);
         countries.add(country);
+    }
+
+    void sortCountries() {
+        countries.sort(new Comparator<Country>() {
+            @Override
+            public int compare(Country o1, Country o2) {
+                return o2.getCountryName().compareTo(o1.getCountryName());
+            }
+        });
     }
 }
 
