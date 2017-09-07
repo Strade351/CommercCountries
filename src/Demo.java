@@ -5,7 +5,7 @@ public class Demo {
     public static void main(String[] args) {
         Reader reader = new Reader();
         reader.reader();
-        reader.sort();
+        //reader.sort();
         reader.parse();
         reader.massc();
         TxtGenerator txtGenerator = new TxtGenerator(reader.ccountries);

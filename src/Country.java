@@ -3,6 +3,7 @@ public class Country {
     private String countryName;
     private int peopleCount;
     private double percent;
+    public static final int WORLD_POPULATION = 7000; //7000 миллионов
 
     public Country(String countryName, int peopleCount, double percent) {
         this.countryName = countryName;

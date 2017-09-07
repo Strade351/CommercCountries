@@ -3,15 +3,26 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.Comparator;
 
+
+/**
+ * Класс контейнер с массивом стран
+ */
 public class Countries {
+    /**
+     * conries - ArrayList для хранения списка стран
+     */
     ArrayList<Country> countries;
 
+    /**
+     * Конструктор класса Countries
+     * @param countries
+     */
     Countries(ArrayList<Country> countries) {
         this.countries = countries;
     }
     /**
-     * <p>Возвращает по запрашиваемую страну по ее названию.</p>
-     * @param name Вертикаль, на которой находится фигура (1=a, 8=h)
+     * <p>Возвращает запрашиваемую страну по ее названию.</p>
+     * @param name Название страны
      *
      * @return Найденную страну, если такая есть, если нет - возвращает null
      */
@@ -25,11 +36,15 @@ public class Countries {
         return tmp;
     }
 
-    void addCountry(String countryName, int peopleCount, double percent) {
-        Country country = null;
-        country.setCountryName(countryName);
-        country.setPeopleCount(peopleCount);
-        country.setPercent(percent);
+    /**
+     * <p>Добавляет страну в ArrayList</p>
+     * @param countryName Название страны
+     * @param peopleCount Население
+     * @return Найденную страну, если такая есть, если нет - возвращает null
+     */
+
+    void addCountry(String countryName, int peopleCount) {
+        Country country = new Country(countryName, peopleCount, Math.round((peopleCount)/Country.WORLD_POPULATION)/1000d);
         countries.add(country);
     }
 
