@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 /**
  * Created by ABondarev on 04.09.2017.
  */
@@ -5,16 +7,16 @@ public class Demo {
     public static void main(String[] args) {
         Reader reader = new Reader();
         reader.reader();
-        //reader.sort();
-        reader.parse();
-        reader.massc();
-        TxtGenerator txtGenerator = new TxtGenerator(reader.ccountries);
+
+        ArrayList<Country> countries = new ArrayList<Country>();
+        countries.add(0, new Country("Borovia", 250205));
+        countries.add(0, new Country("Aorovia", 250205));
+        countries.add(0, new Country("Xorwefwef", 250205));
+
+        Countries countries1 = new Countries(countries);
+        countries1.sortCountries();
+        TxtGenerator txtGenerator = new TxtGenerator(countries);
         txtGenerator.generatetxt();
-        HTMLGenerator htmlGenerator = new HTMLGenerator(reader.ccountries);
-        htmlGenerator.generateHTMLList();
-        htmlGenerator.generateHTMLAlphList();
-
-
     }
 
 }

@@ -8,9 +8,9 @@ import java.util.ArrayList;
  */
 public class TxtGenerator {
 
-    ArrayList<Country> countries;
+    Countries countries;
 
-    TxtGenerator(ArrayList<Country> countries) {
+    TxtGenerator(Countries countries) {
         this.countries = countries;
     }
 
@@ -18,8 +18,8 @@ public class TxtGenerator {
     File file = new File("countriessort.txt");
     try {
         FileWriter fw = new FileWriter(file);
-        for (int i = 0; i < countries.size(); i++) {
-            fw.write(countries.get(i).getCountryName() + " " + countries.get(i).getPeopleCount() + " " + countries.get(i).getPercent());
+        for (int i = 0; i < countries.countries.size(); i++) {
+            fw.write(countries.countries.get(i).getCountryName() + " " + countries.countries.get(i).getPeopleCount() + " " + countries.countries.get(i).getPercent());
             fw.append("\r\n");
         }
         fw.close();

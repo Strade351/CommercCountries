@@ -9,9 +9,6 @@ public class Reader {
 
    public ArrayList<Country> countries = new ArrayList<>();
 
-   public Country [] ccountries;
-
-
    public void fillStrList(){
         try{
             FileInputStream fstream = new FileInputStream("countries.txt");
@@ -26,6 +23,7 @@ public class Reader {
    }
 
   void fillContries(Countries c){
+       fillStrList();
        for (int i = 0; i < sstring.length ; i++) {
            String[] tmp = sstring[i].split(" - ");
            String counts =  tmp[1].replace(",", "");
