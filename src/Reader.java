@@ -13,7 +13,7 @@ public class Reader {
 
    public void Reader() {
        reader();
-       sort();
+       //sort();
        parse();
        massc();
    }
@@ -38,12 +38,12 @@ public class Reader {
         }
    }
 
-   void sort() {
+/*   void sort() {
         Arrays.sort(sstring);
         for (int i = 0; i < sstring.length; i++) {
             //System.out.println(sstring[i]);
         }
-    }
+    }*/
 
    void parse(){
        for (int i = 0; i < sstring.length ; i++) {
