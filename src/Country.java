@@ -1,4 +1,5 @@
 public class Country {
+
     private String countryName;
     private int peopleCount;
     private double percent;
@@ -28,5 +29,17 @@ public class Country {
 
     public double getPercent() {
         return percent;
+    }
+
+    public void setCountryName(String countryName) {
+        this.countryName = countryName;
+    }
+
+    public void setPeopleCount(int peopleCount) {
+        this.peopleCount = peopleCount;
+    }
+
+    public void setPercent(double percent) {
+        this.percent = percent;
     }
 }

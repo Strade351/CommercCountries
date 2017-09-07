@@ -17,5 +17,12 @@ public class Countries {
         return tmp;
     }
 
+    void addCountry(String countryName, int peopleCount, double percent) {
+        Country country = null;
+        country.setCountryName(countryName);
+        country.setPeopleCount(peopleCount);
+        country.setPercent(percent);
+        countries.add(country);
+    }
 }
 
