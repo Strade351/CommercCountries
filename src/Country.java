@@ -1,7 +1,7 @@
 public class Country {
-    String countryName;
-    int peopleCount;
-    double percent;
+    private String countryName;
+    private int peopleCount;
+    private double percent;
 
     public Country(String countryName, int peopleCount, double percent) {
         this.countryName = countryName;
@@ -16,5 +16,17 @@ public class Country {
                 ", peopleCount=" + peopleCount +
                 ", percent=" + percent +
                 '}';
+    }
+
+    public String getCountryName() {
+        return countryName;
+    }
+
+    public int getPeopleCount() {
+        return peopleCount;
+    }
+
+    public double getPercent() {
+        return percent;
     }
 }
