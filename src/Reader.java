@@ -13,8 +13,6 @@ public class Reader {
 
    public void Reader() {
        reader();
-       //sort();
-       parse();
        massc();
    }
 
@@ -25,33 +23,24 @@ public class Reader {
             String strLine;
             while ((strLine = br.readLine()) != null){
                 astrings.add(strLine);
-            }
-
-            astrings.remove(0);
+            }/*astrings.remove(0);
             sstring = new String[astrings.size()] ;
             for (int i = 0; i < sstring.length ; i++) {
                 sstring[i] = astrings.get(i);
 
-            }
+            }*/
         } catch (IOException e){
             System.out.println("Ошибка");
         }
    }
 
-/*   void sort() {
-        Arrays.sort(sstring);
-        for (int i = 0; i < sstring.length; i++) {
-            //System.out.println(sstring[i]);
-        }
-    }*/
-
-   void parse(){
+ /*  void parse(){
        for (int i = 0; i < sstring.length ; i++) {
            String[] tmp = sstring[i].split(" - ");
            String counts =  tmp[1].replace(",", "");
-           countries.add(new Country(tmp[0], Integer.parseInt(counts), Math.round(Double.parseDouble(counts)/70000)/1000d));
+           countries.add(new Country(tmp[0], Integer.parseInt(counts)));
        }
-   }
+   }*/
 
    void massc(){
        ccountries = new Country[countries.size()];
