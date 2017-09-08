@@ -7,7 +7,7 @@ public class Demo {
     public static void main(String[] args) {
         Countries countries = new Countries(new ArrayList<>());
         Controller controller = new Controller(countries);
-        controller.generateCountriesList();
+        controller.getCountriesList();
         controller.sortStrings();
         controller.generateTxt();
         controller.generateTable();

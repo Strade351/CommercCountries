@@ -31,7 +31,7 @@ public class Controller {
         htmlGenerator.generateHTMLAlphList();
     }
 
-    void generateCountriesList() {
+    void getCountriesList() {
         reader.fillContries(countries);
     }
 }
