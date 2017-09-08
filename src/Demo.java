@@ -12,6 +12,7 @@ public class Demo {
         controller.generateTxt();
         controller.generateTable();
         controller.generateAlphabet();
+        controller.generateContinents();
     }
 
 }

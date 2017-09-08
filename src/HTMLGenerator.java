@@ -33,7 +33,8 @@ public class HTMLGenerator {
         try {
             FileWriter fw = new FileWriter(file);
             fw.append("<html> <title>Countries</title> <head> <meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\"> </head> <body>");
-            fw.write("<a href=\"#" + countries.countries.get(0).getCountryName().charAt(3) + "\">" + countries.countries.get(0).getCountryName().charAt(3) + "</a>\n");     //заголовок
+            fw.write("<a href=\"#" + countries.countries.get(0).getCountryName().charAt(3) + "\">" +
+                    countries.countries.get(0).getCountryName().charAt(3) + "</a>\n");     //заголовок
             for (int i = 1; i < countries.countries.size(); i++) {
                 char temp = countries.countries.get(i).getCountryName().charAt(3);
                 if (temp != countries.countries.get(i - 1).getCountryName().charAt(3)) {
@@ -46,7 +47,8 @@ public class HTMLGenerator {
             for (int i = 0; i < countries.countries.size(); i++) {
                 char temp = countries.countries.get(i).getCountryName().charAt(3);
                 if (i == 0 && temp == countries.countries.get(i + 1).getCountryName().charAt(3)) {
-                    fw.write("<a name=\"" + temp + "\">" + temp + "</a><br>" + countries.countries.get(i).getCountryName() + "<br>" );
+                    fw.write("<a name=\"" + temp + "\">" + temp + "</a><br>" +
+                            countries.countries.get(i).getCountryName() + "<br>" );
                 }
                 else if (temp != countries.countries.get(i - 1).getCountryName().charAt(3)) {
                     fw.write("<p> <a href=\"#Top\">Top</a> </p>");
@@ -61,5 +63,20 @@ public class HTMLGenerator {
         } catch (IOException e) {
             e.printStackTrace();
         }
+    }
+
+    void generateHTMLContinents() {
+        File file = new File("countriesContinents.html");
+            try {
+                FileWriter fw = new FileWriter(file);
+                fw.append("<html> <title>Continents</title> <head> <meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\"> </head> <body>");
+                for (Continents continents : Continents.values()) {                                                  //заголовок
+                    fw.write("<a href=\"#" + continents.toString());
+                }
+                fw.append("</body></html>"); //FOR TEST!!!
+                fw.close();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
     }
 }
