@@ -23,6 +23,7 @@ public class Country {
      */
     public static final int WORLD_POPULATION = 7000; //7000 миллионов
 
+
     /**
      * Конструктор класса Country(процент считается автоматически)
      * @param countryName - название страны
