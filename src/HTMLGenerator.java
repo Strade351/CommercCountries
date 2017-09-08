@@ -49,7 +49,6 @@ public class HTMLGenerator {
                     fw.write("<a name=\"" + temp + "\">" + temp + "</a><br>" + countries.countries.get(i).getCountryName() + "<br>" );
                 }
                 else if (temp != countries.countries.get(i - 1).getCountryName().charAt(3)) {
-                    //temp = countries[i + 1].countryName.charAt(3);
                     fw.write("<p> <a href=\"#Top\">Top</a> </p>");
                     fw.write("<a name=\"" + temp + "\">" + temp + "</a><br>");
                     fw.write(countries.countries.get(i).getCountryName() + " <br>");

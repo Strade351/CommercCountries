@@ -15,6 +15,10 @@ public class Country {
      */
     private double percent;
     /**
+     * continent (поле) - поле перечисления континентов(enum)
+     */
+    private Continents continent;
+    /**
      * WORLD_POPULATION (статическое поле) - население земли
      */
     public static final int WORLD_POPULATION = 7000; //7000 миллионов
@@ -28,7 +32,7 @@ public class Country {
     public Country(String countryName, int peopleCount) {
         this.countryName = countryName;
         this.peopleCount = peopleCount;
-        this.percent = Math.round((peopleCount)/70000)/1000d;
+        this.percent = Math.round((peopleCount)/WORLD_POPULATION)/1000d;
     }
 
     /**
@@ -67,4 +71,19 @@ public class Country {
         return percent;
     }
 
+    /**
+     * Геттер для получения континента
+     * @return континент
+     */
+    public Continents getContinent() {
+        return continent;
+    }
+
+    /**
+     * Сеттер для установки континента
+     * @param continent
+     */
+    public void setContinent(Continents continent) {
+        this.continent = continent;
+    }
 }
