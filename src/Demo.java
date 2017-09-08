@@ -10,7 +10,7 @@ public class Demo {
         controller.generateCountriesList();
         controller.generateTxt();
         controller.generateTable();
-        controller.generateAlphabet();
+//        controller.generateAlphabet();
     }
 
 }
