@@ -8,9 +8,10 @@ public class Demo {
         Countries countries = new Countries(new ArrayList<>());
         Controller controller = new Controller(countries);
         controller.generateCountriesList();
+        controller.sortStrings();
         controller.generateTxt();
         controller.generateTable();
-//        controller.generateAlphabet();
+        controller.generateAlphabet();
     }
 
 }

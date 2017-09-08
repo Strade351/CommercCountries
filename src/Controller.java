@@ -23,6 +23,10 @@ public class Controller {
         htmlGenerator.generateHTMLList();
     }
 
+    void sortStrings() {
+        countries.sortCountries();
+    }
+
     void generateAlphabet() {
         htmlGenerator.generateHTMLAlphList();
     }
