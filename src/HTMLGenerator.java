@@ -71,8 +71,20 @@ public class HTMLGenerator {
                 FileWriter fw = new FileWriter(file);
                 fw.append("<html> <title>Continents</title> <head> <meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\"> </head> <body>");
                 for (Continents continents : Continents.values()) {                                                  //заголовок
-                    fw.write("<a href=\"#" + continents.toString());
+                    fw.write("<a href=\"#" + continents.toString() + "\"> " + continents.toString() + "</a>");
                 }
+
+                fw.append("<br>");
+
+                for (int i = 0; i < Continents.values().length; i++) {
+                    fw.write("<a name=\"" + Continents.values()[i].toString() + "\">" + Continents.values()[i].toString() + "</a><br>");
+                    for (int j = 0; j < countries.countries.size(); j++) {
+                        if (countries.countries.get(j).getContinent().equals(Continents.values()[i].name)) {
+                            fw.write(countries.countries.get(j).getCountryName());
+                        }
+                    }
+                }
+
                 fw.append("</body></html>"); //FOR TEST!!!
                 fw.close();
             } catch (IOException e) {
