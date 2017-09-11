@@ -34,4 +34,6 @@ public class Controller {
     void getCountriesList() {
         reader.fillContries(countries);
     }
+
+    void reader(){reader.fillContinents(countries);}
 }

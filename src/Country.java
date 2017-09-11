@@ -46,6 +46,7 @@ public class Country {
                 "countryName='" + countryName + '\'' +
                 ", peopleCount=" + peopleCount +
                 ", percent=" + percent +
+                ", continent=" + continent +
                 '}';
     }
 
