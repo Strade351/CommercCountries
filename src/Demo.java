@@ -9,10 +9,10 @@ public class Demo {
         Controller controller = new Controller(countries);
         controller.getCountriesList();
         controller.sortStrings();
+        controller.readContinents();
         controller.generateTxt();
         controller.generateTable();
         controller.generateAlphabet();
+        controller.generateContinents();
     }
-    //хкуй
-
 }

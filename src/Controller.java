@@ -39,5 +39,5 @@ public class Controller {
         reader.fillContries(countries);
     }
 
-    void reader(){reader.fillContinents(countries);}
+    void readContinents(){reader.fillContinents(countries);}
 }

@@ -2,7 +2,6 @@ import sun.font.FontRunIterator;
 
 import java.io.*;
 import java.util.ArrayList;
-import java.util.Arrays;
 
 public class Reader {
 
@@ -30,19 +29,17 @@ public class Reader {
         for (int i = 1; i < astrings.size(); i++) {
             String[] tmp = astrings.get(i).split(" - ");
             String counts = tmp[1].replace(",", "");
-            c.addCountry(tmp[0], Integer.parseInt(counts));
+            c.addCountry(tmp[0], Integer.parseInt(counts), "Africa");
         }
     }
 
-    public void fillStrListContinents() {
+    private void fillStrListContinents() {
         try {
             FileInputStream fstream = new FileInputStream("continents.txt");
             BufferedReader br = new BufferedReader(new InputStreamReader(fstream));
             String strLine;
-            int count = 0;
             while ((strLine = br.readLine()) != null) {
                 cstrings.add(strLine);
-                count++;
             }
         } catch (IOException e) {
             System.out.println("Ошибка");
@@ -88,15 +85,13 @@ public class Reader {
             }
 
             for (int j = 0; j < c.countries.size(); j++) {
-                if (c.countries.get(i).getCountryName().equals("  "+cont)) {
+                String tmp = "   " + cont;
+                if (c.countries.get(j).getCountryName().equals(tmp)) {
                     System.out.println("пиу");
-                    c.countries.get(i).setContinent(tmpcont);
+                    c.countries.get(j).setContinent(tmpcont);
                 }
-
             }
             int x=8;
-
-
         }
 
     }

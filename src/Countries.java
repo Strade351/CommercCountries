@@ -1,6 +1,4 @@
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
 import java.util.Comparator;
 
 
@@ -40,10 +38,11 @@ public class Countries {
      * <p>Добавляет страну в ArrayList</p>
      * @param countryName Название страны
      * @param peopleCount Население
+     * @param africa
      * @return Найденную страну, если такая есть, если нет - возвращает null
      */
 
-    void addCountry(String countryName, int peopleCount) {
+    void addCountry(String countryName, int peopleCount, String africa) {
         Country country = new Country(countryName, peopleCount);
         countries.add(country);
     }

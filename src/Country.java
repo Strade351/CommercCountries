@@ -35,6 +35,12 @@ public class Country {
         this.peopleCount = peopleCount;
         this.percent = Math.round((peopleCount)/WORLD_POPULATION)/1000d;
     }
+//FOR TEST
+    public Country(String countryName, int peopleCount, String Continent) {
+        this.countryName = countryName;
+        this.peopleCount = peopleCount;
+        this.percent = Math.round((peopleCount)/WORLD_POPULATION)/1000d;
+    }
 
     /**
      * Метод toString
