@@ -12,12 +12,6 @@ public class Demo {
         controller.generateTxt();
         controller.generateTable();
         controller.generateAlphabet();
-        controller.reader();
-
-        for (int i = 0; i < countries.countries.size() ; i++) {
-            System.out.println(countries.countries.get(i).toString());
-
-        }
     }
 
 }

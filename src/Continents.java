@@ -5,6 +5,7 @@ public enum Continents {
     AFRICA("Africa"),ASIA("Asia"),EUROPE("Europe"),NAMERICA("NAmerica"),SAMERICA("SAmerica"),OCEANIA("Oceania"),OTHER("Other");
     String name;
     Continents(String name){
+        this.name = name;
     }
 
     @Override
